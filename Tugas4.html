@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    #judul p {
+      font-size: 45px;
+      text-align: center;
+      background-color: rgb(229, 111, 205);
+      color: white;
+      height: 70px;
+    }
+    .Kimbab p {
+      margin: 15px;
+      text-align: justify;
+    }
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 15px;
+      width: 70%;
+      padding-left: 15px;
+    }
+    .stepbystep {
+      margin: 18px;
+    }
+    .media img {
+      display: flex;
+      margin-top: 5px;
+      margin-left: 250px;
+    }
+    .video iframe {
+      width: 668px;
+      height: 390px;
+      margin: 15px;
+    }
+    .video p {
+      margin-left: 10px;
+    }
+    .request form {
+      margin-top: 20px;
+      margin-left: 15px;
+      width: 100%;
+    }
+    img {
+      width: 50%;
+    }
+
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> praktek masak </title>
+  </head>
+  <body>
+    <div id="judul">
+      <p>Resep Membuat Nasi Goreng</p>
+    </div>
+    <div class="media">
+      <img
+        src="images/nasi goreng.jpg"
+        alt="nasi goreng"
+      />
+    </div>
+    <div class="Nasi Goreng">
+      <p>
+        Nasi goreng adalah favorit semua orang, dari semua kalangan baik dari anak-anak hingga dewasa.
+        cara pembuatannya pun mudah dan ekonomis
+        <br />
+        Bahan-bahan yang sering digunakan dalam membuat nasi goreng antara lain nasi putih,
+        bawang merah,bawang putih,cabai, telur, penyedap makanan, sosis, kecap manis, minyak goreng.
+        
+        <br />
+        nasi goreng bisa dimakan kapan saja, sebagai sarapan dan makan malam bahan bekal berpergian. 
+        seperti bekal sekolah, bekal piknik, bekal untuk kerja. tersedia di berbagai restoran, toko makanan cepat
+        saji, dan gerobak makanan.
+      </p>
+    </div>
+    <table>
+      <tr>
+        <th>Bahan</th>
+        <th>Jumlah</th>
+      </tr>
+      <tr>
+        <td>Nasi putih</td>
+        <td>sesuai kebutuhan</td>
+      </tr>
+      <tr>
+        <td>bawang merah</td>
+        <td>4 siung</td>
+      </tr>
+      <tr>
+        <td>bawang putih</td>
+        <td>4 siung</td>
+      </tr>
+      <tr>
+        <td>cabai</td>
+        <td>3 siung</td>
+      </tr>
+      <tr>
+        <td>telur</td>
+        <td>3 butir</td>
+      </tr>
+      <tr>
+        <td>penyedap makanan</td>
+        <td>secukupnya</td>
+      </tr>
+      <tr>
+        <td>sosis</td>
+        <td>4 buah</td>
+      </tr>
+      <tr>
+        <td>kecap manis</td>
+        <td>secukupnya</td>
+      </tr>
+      <tr>
+        <td>minyak goreng</td>
+        <td>1 sendok makan</td>
+      </tr>
+    </table>
+    <div class="stepbystep">
+      <p>Cara membuat:</p>
+      <ol>
+        <li>potong bawang merah dan bawaang putih</li>
+        <li>tuang minyak kedalam wajan</li>
+        <li>panaskan minyak</li>
+        <li>tumis bawang merah dan bawang putih hingga harum</li>
+        <li>pecahkan 3 butir telur</li>
+        <li>masukan nasi putih secukupnya kedalam wajan</li>
+        <li>masukan penyedap makanan secukupnya</li>
+        <li>tambahkan toping sosis sesuai kebutuhan</li>
+        <li>masukan kecap manis secukupnya</li>
+      </ol>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZjtrOktGr0?si=4nUndnh73F9qFla_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="request">
+      <form>
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last Name :</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="rtutor">Masukan Tutorial Masak Selanjutnya </label>
+        <input type="text" id="rtutor" name="rtutor" /><br /><br />
+        <input type="Submit" />
+      </form>
+    </div>
+    <div class="drop">
+    <label for="jenis_kelamin">Jenis Kelamin</label>
+  <select name="jenis_kelamin">
+    <option value="Laki-laki">Laki-laki</option>
+    <option value="Perempuan">Perempuan</option>
+    <option value="Non-Biner">Non-Biner</option>
+  </select>
+    </div>
+  <input type="submit" value="Submit">
+  <div class="drop">
+  <label for="hobi">Hobi</label>
+  <input type="checkbox" name="hobi" value="Membaca"> Membaca
+  <input type="checkbox" name="hobi" value="Menulis"> Menulis
+  <input type="checkbox" name="hobi" value="Bermain Game"> Bermain Game
+  <input type="submit" value="Submit">
+  </div>
+  </body>
+</html>
