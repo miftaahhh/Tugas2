@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: ghostwhite;
+  }
+  
+  #judul {
+    background-color: navy;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-bottom: 5px dashed red;
+  }
+  
+  .content img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .content .opening p {
+    margin-bottom: 30px;
+  }
+  
+  .content div h3,
+  .content div p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  #form {
+    padding: 20px;
+    background-color: navy;
+    color: aliceblue;
+    border: 3px solid red;
+  }
